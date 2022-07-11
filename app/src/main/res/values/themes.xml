@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.Demo" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="android:statusBarColor">#ffffff</item>
+        <item name="android:navigationBarColor">#ffffff</item>
+    </style>
+</resources>

@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">One Alarm</string>
+
+    <string name="alarm">Alarm</string>
+    <string name="schedule_alarm">Schedule</string>
+    <string name="alarm_mode_from_now">From now</string>
+    <string name="alarm_mode_exactly_at">Exactly at</string>
+
+    <string name="scheduled_alarms">Scheduled alarms</string>
+    <string name="alarm_list_item_from_now">%s from now</string>
+    <string name="cancel">Cancel</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+
+    <string name="most_used_alarms">Most used alarms</string>
+
+    <string name="alarm_activity_apply_dismiss">Alarm off</string>
+    <string name="alarm_activity_apply_snooze">Snooze for %s</string>
+
+    <string name="alarm_sucessfully_set">Alarm successfully set</string>
+    <string name="alarm_is_already_set">Alarm for that time is already set</string>
+    <string name="error_happened">Error happened</string>
+
+    <string name="alarm_exact_permission_importance">
+        Without permission to schedule exact alarms
+        the applications will still be able to set alarms,
+        but they will be inexact and system won\'t treat alarms of this application as system ones.
+
+        So, to use all features, allow &lt;b&gt;setting alarms &amp; reminders&lt;/b&gt; in the settings
+    </string>
+
+    <string name="go_to_settings">Go to the settings</string>
+    <string name="never_show_again">Never show again</string>
+
+    <string name="alarms_deletion_info">
+        Because %s, some alarms could not be run and were automatically deleted
+    </string>
+
+    <string name="device_off_deletion_reason">
+        the device was off
+    </string>
+
+    <string name="ok">OK</string>
+
+    <string name="disable_battery_opt_importance">
+        To improve precision of alarms, you should disable battery optimisations of this application.
+    </string>
+
+    <!-- Preferences -->
+
+    <string name="preferences">Preferences</string>
+    <string name="volume_button_behaviour">Volume button behaviour</string>
+    <string name="volume_button_behaviour_desc">
+        You can snooze or dismiss alarms using volume buttons, or you can leave it as is.
+    </string>
+    <string-array name="volume_button_behaviour_items">
+        <item>Control volume</item>
+        <item>Snooze</item>
+        <item>Dismiss</item>
+    </string-array>
+
+    <string name="snooze_duration">Snooze duration</string>
+    <string name="snooze_duration_desc">
+        Duration for what alarm can be delayed to let you sleep a little bit.
+    </string>
+
+    <string name="silence_after_duration">Silence after</string>
+    <string name="silence_after_duration_desc">
+        If you really don\'t want to wake up or for some reason you are not around the device,
+        alarm will be automatically dismissed after this duration.
+    </string>
+</resources>
